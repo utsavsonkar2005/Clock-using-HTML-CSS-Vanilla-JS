@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  /* body{
+    background: url(https://c4.wallpaperflare.com/wallpaper/615/107/638/beach-sandy-beach-lagoon-tropical-landscape-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+  } */
+  .container{
+    background-color: rgb(255, 196, 0);
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .clockbox{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 42px;
+    gap: 54px;
+    height: 251px;
+    width: 656px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    border-radius: 60px;
+  }
+  .timebox{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 30px ;
+
+  }
+  .box  p.time{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-align: center; */
+    font-size: 70px;
+
+  }
+  .box p.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .timebox .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     height: 150px;
+     width: 150px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+     /* box-sizing: 20px black; */
+     box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
+  }
+  .daydate{
+    height: 34px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
+    font-family: sans-serif;
+    /* justify-self: center; */
+
+  }
+  .daydate {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 500;
+
+    /* text-align: center; */
+  }
+  span.coloum p{
+color: rgb(0, 0, 0);
+font-weight: 200;
+font-size: 70px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 0px 0px 10px 0px;
+  }
